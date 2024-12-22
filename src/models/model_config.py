@@ -10,7 +10,7 @@ class MiniChatConfig(PretrainedConfig):
         n_layers: int = 8,
         n_heads: int = 16,
         n_kv_heads: int = 8,
-        vocab_size: int = 6400,
+        vocab_size: int = 12000,
         hidden_dim: int = None,
         multiple_of: int = 64,
         norm_eps: float = 1e-5,
